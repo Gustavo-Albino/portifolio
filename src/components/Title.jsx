@@ -15,7 +15,7 @@ const StyledTitle = styled.h1`
     color: #fff;
 `
 
-function Title() {
+const Title = () => {
     return (
         <StyledTitle>Gustavo Albino</StyledTitle>
     )

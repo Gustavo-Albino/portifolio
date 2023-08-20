@@ -21,7 +21,7 @@ const StyledList = styled.ul`
     .icon4:hover {color: #765ce9; transform: scale(1.1); transition: .3s;}
 `
 
-function NetWorks() {
+const NetWorks = () => {
     return (
         <StyledList>
             <li><a href="https://github.com/Gustavo-Albino"><ion-icon class="icon1" size="large" name="logo-github"></ion-icon></a></li>

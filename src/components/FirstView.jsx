@@ -9,7 +9,7 @@ import MyImage from './MyImage'
 const StyledView = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 80vh;
+    height: 95vh;
     width: 100vw;
     background-color: #171717;
 `
@@ -19,7 +19,7 @@ const LeftSection = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0 0 0 2rem;
+    margin: 0 0 15% 2rem;
     padding: 20px;
 `
 
@@ -27,9 +27,11 @@ const RightSection = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 0 15% 2rem;
+
 `
 
-function FirstView() {
+const FirstView = () => {
     return (
         <StyledView>
             <LeftSection>

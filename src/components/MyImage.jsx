@@ -8,7 +8,7 @@ const StyledImg = styled.img`
     margin: 0 0 0 4rem;
 `
 
-function MyImage() {
+const MyImage = () => {
     const imagePath = process.env.PUBLIC_URL + '/img/meg.png'
 
     return (

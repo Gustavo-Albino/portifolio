@@ -7,7 +7,7 @@ const StyledSubtitle = styled.p`
     color: #fff;
 `
 
-function Subtitle() {
+const Subtitle = () => {
     return (
         <StyledSubtitle>Olá, seja bem vindo(a) ao meu universo virtual particular, espero que goste!</StyledSubtitle>
     )
