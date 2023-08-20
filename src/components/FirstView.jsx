@@ -35,7 +35,7 @@ const FirstView = () => {
     return (
         <StyledView>
             <LeftSection>
-                <Title />
+                <Title text={"Gustavo Albino"} textColor={"#fff"}/>
                 <Subtitle />
                 <Networks />
             </LeftSection>

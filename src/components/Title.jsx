@@ -1,23 +1,14 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 
-const animation = keyframes`
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-`
 const StyledTitle = styled.h1`
     font-size: 50px;
-    animation-name: ${animation};
-    color: #fff;
+    color: ${(props) => props.textColor};
 `
 
-const Title = () => {
+const Title = ({text, textColor}) => {
     return (
-        <StyledTitle>Gustavo Albino</StyledTitle>
+        <StyledTitle textColor={textColor}>{text}</StyledTitle>
     )
 }
 
