@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import FirstView from './components/FirstView'
 import SecondView from './components/SecondView'
+import ThirdView from './components/ThirdView'
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -14,6 +15,7 @@ const App = () => {
         <AppContainer>
             <FirstView />
             <SecondView />
+            <ThirdView />
         </AppContainer>
     )
 }
